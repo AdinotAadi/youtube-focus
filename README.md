@@ -44,9 +44,13 @@ No external APIs or data collection is involved.
 ## Project Structure
 
 youtube-focus/
+|
 ├── manifest.json
+|
 ├── content.js
+|
 ├── popup.html
+|
 └── popup.js
 
 ## Limitations
