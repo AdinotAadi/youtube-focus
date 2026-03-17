@@ -1,10 +1,13 @@
 {
   "manifest_version": 3,
   "name": "YouTube Focus",
-  "version": "1.0",
-  "description": "Hide distracting elements on YouTube",
+  "version": "2.0",
+  "description": "Hide distracting elements on YouTube with toggleable subscription-only homepage",
   "permissions": ["storage"],
   "host_permissions": ["https://www.youtube.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
